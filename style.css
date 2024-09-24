@@ -1,0 +1,69 @@
+/* Definindo a fonte padrão */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Aumenta a legibilidade */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #4a90e2; /* Azul para o cabeçalho */
+    color: white; /* Texto branco */
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: white; /* Texto dos links em branco */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilizando as seções principais */
+main {
+    padding: 20px; /* Espaçamento interno */
+}
+
+section {
+    background: white; /* Fundo branco para seções */
+    border-radius: 8px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-bottom: 20px; /* Espaçamento entre seções */
+    padding: 15px; /* Espaçamento interno nas seções */
+}
+
+/* Estilizando o rodapé */
+footer {
+    text-align: center; /* Alinha o texto do rodapé ao centro */
+    padding: 10px 0;
+    background-color: #4a90e2; /* Azul para o rodapé */
+    color: white; /* Texto branco */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Links dentro das seções */
+section a {
+    color: #4a90e2; /* Cor dos links dentro das seções */
+}
+
+section a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
